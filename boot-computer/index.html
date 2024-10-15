@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Boot Style</title>
+
+    <style>
+        .jetbrains-cookies-banner-4 {
+            position: fixed;
+            z-index: 999999;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 20px 20px 0 0 rgba(0, 0, 0, .682);
+            box-sizing: border-box;
+            width: 570px;
+            padding: 7px 5px 5px;
+            background-color: #01a7a8;
+            color: #000;
+            font: 12px / 16px JetSites Cookie Banner JetBrains Mono, Menlo, Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+            opacity: 1;
+            transition: opacity .3s;
+        }
+
+        .jetbrains-cookies-banner-4__section:first-child {
+            margin-top: 0;
+        }
+        .jetbrains-cookies-banner-4__section {
+            text-align: center;
+            padding: 20px 18px;
+            border: 1px solid #000;
+            margin-top: 2px;
+            font-weight: 700;
+        }
+        .jetbrains-cookies-banner-4__section p {
+            color: #000;
+            font: 12px / 16px JetSites Cookie Banner JetBrains Mono, Menlo, Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+        }
+
+        .jetbrains-cookies-banner-4__body {
+            position: relative;
+            border: 1px solid #000;
+            padding: 2px;
+        }
+
+        .jetbrains-cookies-banner-4__sign {
+            display: block;
+            background-color: #000;
+            color: #fff;
+            position: absolute;
+            padding: 0 5px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            top: 0;
+            white-space: nowrap;
+            font: 12px / 16px JetSites Cookie Banner JetBrains Mono, Menlo, Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+        }
+
+        .jetbrains-cookies-banner-4-button {
+            position: relative;
+            background: #fff;
+            border: none;
+            padding: 0 16px;
+            margin: 0;
+            color: #aaaaad;
+            font: 12px / 16px JetSites Cookie Banner JetBrains Mono, Menlo, Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+            box-shadow: 6px 6px 0 0 #000;
+        }
+
+        .jetbrains-cookies-banner-4-button:hover {
+            background-color: #fefc4f;
+            color: #000;
+        }
+
+        .jetbrains-cookies-banner-4-button--accent {
+            background-color: #fefc4f;
+            color: #700000;
+        }
+
+        .jetbrains-cookies-banner-4-button:before {
+            content: "";
+            position: absolute;
+            top: -4px;
+            right: -4px;
+            bottom: -4px;
+            left: -4px;
+        }
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="jetbrains-cookies-banner-4">
+        <div class="jetbrains-cookies-banner-4__sign">Configurações de cookies</div>
+        <div class="jetbrains-cookies-banner-4__body">
+            <div class="jetbrains-cookies-banner-4__section">
+                <p>Nosso site usa alguns cookies e registra seu endereço IP para fins de acessibilidade,
+                    segurança e gerenciamento do seu acesso à rede de telecomunicações. Você pode desativar a
+                    coleta de dados e os cookies alterando as configurações do seu navegador, mas isso pode afetar o
+                    funcionamento deste site. <a href="https://www.jetbrains.com/legal/docs/privacy/cookie-notice/">
+                        Saiba mais</a>.
+                </p>
+            </div>
+            <div class="jetbrains-cookies-banner-4__section">
+                <p class="jetbrains-cookies-banner-4__section__main-text">
+                    Com o seu consentimento, a JetBrains também pode usar cookies e seu endereço IP para coletar
+                    estatísticas individuais e fornecer ofertas e anúncios personalizados, sujeitos à
+                    <a href="https://www.jetbrains.com/legal/docs/privacy/privacy/">Política de Privacidade
+                    </a>
+                    e aos <a href="https://www.jetbrains.com/legal/docs/company/useterms/">Termos de Uso
+                    </a>. A JetBrains pode usar <a href="https://www.jetbrains.com/legal/docs/privacy/third-parties/">
+                    serviços de terceiros</a> para essa finalidade. Você pode ajustar ou retirar seu consentimento a qualquer
+                    momento visitando a <a href="https://www.jetbrains.com/opt-out/">página de cancelamento</a>.
+                </p><!--if-->
+                <div class="jetbrains-cookies-banner-4__actions">
+                    <button class="jetbrains-cookies-banner-4-button jetbrains-cookies-banner-4-button--accent jetbrains-cookies-banner-4__action data-jetbrains-cookies-banner-action='ACCEPT_ALL'">Aceitar tudo</button>
+                    <!--if--><button class="jetbrains-cookies-banner-4-button jetbrains-cookies-banner-4__action data-jetbrains-cookies-banner-action='MANAGE_SETTINGS'">Gerenciar configurações</button><!--if--><!--if-->
+                    <button class="jetbrains-cookies-banner-4-button jetbrains-cookies-banner-4__close data-jetbrains-cookies-banner-action='CLOSE' aria-label='Fechar banner de cookies'">Fechar</button><!--if-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
